@@ -1,0 +1,19 @@
+{
+  "name": "My Farcaster Mini App",
+  "description": "Простая мини-апка для Farcaster",
+  "icon": "https://твой-домен.vercel.app/icon.png",
+  "homepage_url": "https://твой-домен.vercel.app",
+  "frame": {
+    "version": "vNext",
+    "content": {
+      "image_url": "https://твой-домен.vercel.app/preview.png",
+      "buttons": [
+        {
+          "label": "Нажми!",
+          "action": "post",
+          "target": "https://твой-домен.vercel.app/api/click"
+        }
+      ]
+    }
+  }
+}
